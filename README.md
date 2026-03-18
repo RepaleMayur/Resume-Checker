@@ -118,24 +118,3 @@ Since LLM outputs can be non-deterministic, safeguards were implemented:
   "suggestions": ["Include cloud projects", "Highlight containerization experience"]
 } 
 ```
-
-## Project Structure
-
-│   .env
-│   config.py
-│   main.py
-│   redme.md
-│   requirement.txt
-|   logger.py
-├───controller
-│   │   match_controller.py
-├───models
-│   │   response_model.py
-├───service
-│   ├───ai
-│   │   │   base_ai.py
-│   │   │   groq_service.py
-│   ├───match
-│   │   │   resume_matcher.py
-│   └───parser
-│       │   pdf_parser.py
